@@ -1,0 +1,28 @@
+<%-  include('Partials/header.ejs') -%>
+ 
+ 
+ <%-  include('Partials/navbar.ejs') -%>
+ 
+
+
+ 
+ <% for(var i=0; i< messages.length;i++) {  %>
+
+  <div class="time"> <%= times[i] %> </div></br>
+
+ <p><%= messages[i] %> </p> </br>
+<% } %>
+
+  <h1 class="hide">#</h1>
+  
+  
+  
+<%-  include('Partials/footer.ejs') -%>
+  
+  
+  
+  
+  
+
+  
+
